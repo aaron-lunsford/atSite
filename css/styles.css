@@ -132,3 +132,39 @@ h2 {
     background: #F3F4ED; /* social icon hover background color */
     color: #d8b328; /* social icon hover color */
   }
+
+  .newsletter {
+    padding: 20px 0;
+    background: #d8b328;
+    }
+    
+    .newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2; }
+    .newsletter .content h2 {
+    color: black;
+    margin-bottom:10px;
+ }
+ .newsletter .content h3 {
+    color: #F3F4ED;
+    margin-bottom:10px;
+ }
+    .newsletter .content .form-control {
+    height: 50px;
+    border-color: #BB2025;
+    border-radius:0;
+    }
+    .newsletter .content.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #BB2025;
+    }
+    .newsletter .content .btn {
+    min-height: 50px; 
+    border-radius:0;
+    background: #F3F4ED;
+    color: black;
+    font-weight:600;
+    }
